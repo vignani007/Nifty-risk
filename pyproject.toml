@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nifty-risk"
+version = "0.1.0"
+description = "Market Risk Internal Model Prototype (VaR, GARCH, MC, Stress)"
+authors = [
+    { name = "Your Name" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "arch",
+    "matplotlib",
+    "yfinance"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

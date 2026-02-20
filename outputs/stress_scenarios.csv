@@ -1,0 +1,7 @@
+scenario,loss_1D,reference
+Shock: -3σ day,0.02059810974828584,Parametric sigma shock
+Corr stress: off-diag x1.3 (cap 0.99),0.02298268791382724,3σ under corr stress
+Corr stress: off-diag x1.8 (cap 0.99),0.026462534962658227,3σ under corr stress
+Vol shock: vols x1.5,0.030897164622428752,3σ under shocked vols
+Shock: -5σ day,0.03433018291380974,Parametric sigma shock
+Vol shock: vols x2.0,0.04119621949657168,3σ under shocked vols

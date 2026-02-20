@@ -1,0 +1,5 @@
+model,obs,exceptions,zone,plus_factor,multiplier_m
+GARCH-N,250,0,green,0.0,3.0
+GARCH-t,250,0,green,0.0,3.0
+HS(rolling250),250,2,green,0.0,3.0
+EWMA(lam=0.94),250,4,green,0.0,3.0
