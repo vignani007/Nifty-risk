@@ -40,7 +40,12 @@ The objective is to demonstrate a production-style internal risk model architect
 
 \- 10-day horizon risk analysis
 
+## Report
 
+A comprehensive technical report covering all methodologies, computed results, 
+backtesting analysis, and stress testing is available here:
+
+📄 [Market Risk Internal Model Report](docs/NIFTY50_MarketRisk_Report_Final.pdf)
 
 All models are implemented in a modular Python package under `src/`.
 
